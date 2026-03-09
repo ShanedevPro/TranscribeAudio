@@ -116,6 +116,7 @@ The repository does not include real media, real output folders, or local histor
 - Media stays local unless you explicitly move it elsewhere.
 - Runtime history and output files are stored under `local/`, which is gitignored.
 - Public examples are sanitized and do not contain real file paths or personal recordings.
+- Public privacy reviews should verify that no real transcripts, private media references, access tokens, or personal file paths were committed by mistake.
 
 ## Screenshots
 
