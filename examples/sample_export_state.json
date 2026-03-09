@@ -1,0 +1,43 @@
+{
+  "defaults": {
+    "outdir": "/tmp/transcribe-audio-demo/output",
+    "model": "medium",
+    "compute_type": "int8",
+    "language": "en",
+    "device": "auto",
+    "beam_size": 5,
+    "vad_filter": true
+  },
+  "history": [
+    {
+      "id": "demo-job-001",
+      "kind": "file",
+      "input_paths": [
+        "/tmp/transcribe-audio-demo/media/interview_clip.wav"
+      ],
+      "input_files": [
+        "/tmp/transcribe-audio-demo/media/interview_clip.wav"
+      ],
+      "outdir": "/tmp/transcribe-audio-demo/output",
+      "model": "small",
+      "compute_type": "int8",
+      "device": "auto",
+      "beam_size": 5,
+      "vad_filter": true,
+      "created_at": "2026-03-09T12:00:00+00:00",
+      "finished_at": "2026-03-09T12:00:09+00:00",
+      "status": "success",
+      "outputs": [
+        {
+          "input_file": "/tmp/transcribe-audio-demo/media/interview_clip.wav",
+          "txt": "/tmp/transcribe-audio-demo/output/interview_clip.transcript.txt",
+          "segments_json": "/tmp/transcribe-audio-demo/output/interview_clip.segments.json",
+          "meta_json": "/tmp/transcribe-audio-demo/output/interview_clip.meta.json",
+          "language": "en"
+        }
+      ],
+      "error": null
+    }
+  ],
+  "count": 1
+}

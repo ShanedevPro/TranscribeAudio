@@ -1,0 +1,8 @@
+.DS_Store
+.tools/
+local/
+MAINTENANCE.md
+**/__pycache__/
+**/.build/
+**/.swiftpm/
+**/.build-cache/

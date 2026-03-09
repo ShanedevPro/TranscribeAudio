@@ -1,0 +1,4 @@
+faster-whisper
+ctranslate2
+av
+opencc-python-reimplemented
